@@ -1,0 +1,26 @@
+# Python Bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# .env file chứa các biến môi trường (API Key, v.v...)
+.env
+
+# Thư mục chứa các file PDF hoặc các dữ liệu nhạy cảm khác
+knowledge/
+
+# Các file khác không muốn đưa vào git
+*.log
+*.sqlite3
+*.db
+
+# File cấu hình của IDE hoặc editor (PyCharm, VSCode, v.v...)
+.vscode/
+.idea/
+
+# Cấu hình của hệ thống (Mac, Windows)
+.DS_Store
+Thumbs.db
