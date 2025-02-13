@@ -3,6 +3,7 @@ from chatbot import generate_questions_and_answers
 from chatbot import generate_response_from_pdf
 from pdf_utils import extract_text_from_pdf
 from config import PDF_FILE_PATH_1
+from config import PDF_FILE_PATH_2
 
 app = Flask(__name__)
 
@@ -32,6 +33,7 @@ def chat():
 def generate_answers():
     try:
         questions_and_answers = generate_questions_and_answers(pdf_text_2)
+
         
         # Check if the result is valid
         if not questions_and_answers:

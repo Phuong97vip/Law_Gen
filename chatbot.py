@@ -30,6 +30,7 @@ def generate_questions_and_answers(pdf_text):
         f"{pdf_text}"
     )
 
+
     response = generate_response(prompt)
     
     # Debug: print the raw API response
@@ -83,11 +84,30 @@ def generate_response_from_pdf(query, pdf_text):
     return response, reference
 
 def extract_reference_from_pdf(query, pdf_text):
-    # Use a keyword from the query, e.g. "Bộ luật"
-    keyword = "bộ luật"
-    start_idx = pdf_text.lower().find(keyword)
-    if start_idx != -1:
-        end_idx = min(start_idx + 300, len(pdf_text))
-        return f"Tham chiếu từ tài liệu PDF: {pdf_text[start_idx:end_idx]}..."
-    else:
-        return "Không tìm thấy tham chiếu"
+    """
+    Extracts a meaningful reference from the PDF text based on the user's query.
+    The reference should provide surrounding context for the keyword found in the query.
+    """
+    # Define a list of possible keywords from the query that could serve as reference points
+    keywords = ["Điều", "Khoản", "Luật", "Thông tư", "Nghị định", "Hiến pháp"]
+    
+    reference = None
+    
+    # Search for each keyword in the text
+    for keyword in keywords:
+        start_idx = pdf_text.lower().find(keyword)
+        
+        if start_idx != -1:
+            # Get some text before and after the keyword to provide a better context
+            context_start_idx = max(0, start_idx - 300)  # 300 characters before the keyword
+            context_end_idx = min(start_idx + 500 + len(keyword), len(pdf_text))  # 500 characters after the keyword
+
+            reference = pdf_text[context_start_idx:context_end_idx]
+            reference = f"{reference.strip()}"
+            break
+    
+    # If no keyword was found, provide a default message
+    if reference is None:
+        reference = "Không tìm thấy tham chiếu rõ ràng từ tài liệu."
+    
+    return reference
