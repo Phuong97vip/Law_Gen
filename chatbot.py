@@ -5,6 +5,37 @@ from config import OPENAI_API_KEY
 # Initialize OpenAI API
 openai.api_key = OPENAI_API_KEY
 
+
+
+def extract_snippet_from_pdf(query, pdf_text):
+    """
+    Extracts a relevant snippet from the PDF based on the user's query.
+    This method will return a snippet (answer) and its start/end span from the PDF text.
+    """
+    # Search for the keyword related to the query in the text (for simplicity, let's assume query contains keywords)
+    start_idx = pdf_text.lower().find(query.lower())  # Find the index of the query
+    
+    if start_idx != -1:
+        # Assume a span of 100 characters before and after the query text for context
+        context_start_idx = max(0, start_idx - 100)
+        context_end_idx = min(start_idx + len(query) + 100, len(pdf_text))
+
+        snippet = pdf_text[context_start_idx:context_end_idx]
+        span = [context_start_idx, context_end_idx]
+    else:
+        # If no snippet found, extract a nearby surrounding text as context (e.g., first 500 characters or so)
+        context_start_idx = max(0, pdf_text.find('Điều') - 100)  # Assuming we want the context to be around specific legal terms
+        context_end_idx = min(len(pdf_text), pdf_text.find('Điều') + 500)
+
+        snippet = pdf_text[context_start_idx:context_end_idx] if context_start_idx != -1 else "No relevant snippet found."
+        span = [context_start_idx, context_end_idx]
+
+    # If no snippet found or span is [0, 0], skip that result
+    if snippet == "No relevant snippet found." and span == [0, 0]:
+        return None, None
+
+    return snippet.strip(), span
+
 def generate_response(prompt):
     # Call OpenAI API to generate responses
     response = openai.ChatCompletion.create(
