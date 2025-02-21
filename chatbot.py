@@ -1,5 +1,7 @@
+# chatbot.py
 import openai
 import json
+import os  
 import pdfplumber
 from config import PDF_FILE_PATH_2
 
@@ -28,6 +30,7 @@ def extract_snippet_from_pdf(reference, pdf_text):
     start_idx = pdf_text.find(reference)
 
     if start_idx == -1:
+        print(f"Reference '{reference}' not found in the PDF.")
         return None, None
 
     # Extract a context window around the reference
@@ -43,7 +46,7 @@ def extract_snippet_from_pdf(reference, pdf_text):
 # Function to generate questions and answers using OpenAI
 def generate_questions_and_answers(pdf_text):
     prompt = (
-        "Dựa trên nội dung tài liệu pháp lý dưới đây, tạo ra 100 câu hỏi và câu trả lời không được thiếu phải 100. "
+        "Dựa trên nội dung tài liệu pháp lý dưới đây, tạo ra 5 câu hỏi và câu trả lời không được thiếu phải 5. "
         "Mỗi câu trả lời PHẢI kèm tham chiếu CHÍNH XÁC đến Điều/Khoản trong văn bản (VD: 'Điều 1, Khoản 2'). "
         "Output chỉ là JSON hợp lệ theo định dạng:\n\n"
         "[{\"user_input\": \"...\", \"response\": \"...\", \"reference\": \"Điều X, Khoản Y\"}]\n\n"
@@ -68,6 +71,7 @@ def generate_questions_and_answers(pdf_text):
 
 # Function to generate a response using OpenAI
 def generate_response(prompt):
+    openai.api_key = os.getenv("OPENAI_API_KEY")  # Set the API key here
     response = openai.ChatCompletion.create(
         model="gpt-4o-mini-2024-07-18",
         messages=[
