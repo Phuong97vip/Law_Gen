@@ -3,8 +3,28 @@ import openai
 import json
 import os  
 import pdfplumber
+import pandas as pd
 from config import PDF_FILE_PATH_2
 
+
+
+
+def generate_response_from_openai(prompt):
+    try:
+        openai.api_key = os.getenv("OPENAI_API_KEY")  
+        response = openai.ChatCompletion.create(
+            model="gpt-4o-mini-2024-07-18",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=150,
+            temperature=0.7
+        )
+        return response['choices'][0]['message']['content'].strip()
+    except Exception as e:
+        print(f"Error generating response from OpenAI: {e}")
+        return None
 
 # Function to extract text from PDF
 def extract_text_from_pdf(pdf_path):

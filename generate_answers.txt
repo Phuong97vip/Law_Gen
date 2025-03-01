@@ -1,27 +1,27 @@
 [
     {
-        "user_input": "Luật Doanh nghiệp quy định về phạm vi điều chỉnh của doanh nghiệp nào?",
-        "response": "Luật Doanh nghiệp quy định về việc thành lập, tổ chức quản lý, tổ chức lại, giải thể và hoạt động có liên quan của doanh nghiệp, bao gồm công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh và doanh nghiệp tư nhân; quy định về nhóm công ty.",
+        "user_input": "Luật Doanh nghiệp quy định về việc thành lập và tổ chức lại doanh nghiệp như thế nào?",
+        "response": "Luật Doanh nghiệp quy định về việc thành lập, tổ chức quản lý, tổ chức lại, giải thể và hoạt động của doanh nghiệp, bao gồm công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh và doanh nghiệp tư nhân.",
         "reference": "Điều 1, Khoản 1"
     },
     {
         "user_input": "Ai là đối tượng áp dụng của Luật Doanh nghiệp?",
-        "response": "Đối tượng áp dụng của Luật Doanh nghiệp bao gồm doanh nghiệp và cơ quan, tổ chức, cá nhân có liên quan đến việc thành lập, tổ chức quản lý, tổ chức lại, giải thể và hoạt động có liên quan của doanh nghiệp.",
-        "reference": "Điều 2, Khoản 1 và Khoản 2"
+        "response": "Đối tượng áp dụng của Luật Doanh nghiệp bao gồm Doanh nghiệp và Cơ quan, tổ chức, cá nhân có liên quan đến việc thành lập, tổ chức quản lý, tổ chức lại, giải thể và hoạt động của doanh nghiệp.",
+        "reference": "Điều 2, Khoản 1 và 2"
     },
     {
-        "user_input": "Nhà nước bảo đảm quyền lợi gì cho doanh nghiệp?",
-        "response": "Nhà nước công nhận sự tồn tại lâu dài và phát triển của các loại hình doanh nghiệp, bảo đảm bình đẳng trước pháp luật của các doanh nghiệp không phân biệt hình thức sở hữu và thành phần kinh tế.",
-        "reference": "Điều 5, Khoản 1"
+        "user_input": "Doanh nghiệp có những quyền gì theo Luật Doanh nghiệp?",
+        "response": "Doanh nghiệp có quyền tự do kinh doanh ngành, nghề mà luật không cấm, tự chủ kinh doanh, lựa chọn hình thức tổ chức kinh doanh, tìm kiếm thị trường và khách hàng, và nhiều quyền khác theo quy định của pháp luật.",
+        "reference": "Điều 7, Khoản 1, 2 và 3"
     },
     {
-        "user_input": "Công ty trách nhiệm hữu hạn có bao nhiêu thành viên tối thiểu?",
-        "response": "Công ty trách nhiệm hữu hạn hai thành viên trở lên phải có ít nhất 02 thành viên.",
-        "reference": "Điều 46, Khoản 1"
+        "user_input": "Luật Doanh nghiệp quy định nghĩa vụ của doanh nghiệp là gì?",
+        "response": "Doanh nghiệp có nghĩa vụ đáp ứng đủ điều kiện đầu tư kinh doanh, thực hiện nghĩa vụ đăng ký doanh nghiệp, tổ chức công tác kế toán, nộp thuế và bảo đảm quyền lợi của người lao động.",
+        "reference": "Điều 8, Khoản 1, 2 và 4"
     },
     {
-        "user_input": "Thành viên Hội đồng quản trị có quyền gì theo Luật Doanh nghiệp?",
-        "response": "Thành viên Hội đồng quản trị có quyền quyết định chiến lược phát triển và kế hoạch kinh doanh hằng năm của công ty, bầu, miễn nhiệm, bãi nhiệm Chủ tịch Hội đồng quản trị, và quyết định tổ chức lại công ty.",
-        "reference": "Điều 55, Khoản 2"
+        "user_input": "Doanh nghiệp tư nhân có những đặc điểm gì theo Luật Doanh nghiệp?",
+        "response": "Doanh nghiệp tư nhân là doanh nghiệp do một cá nhân làm chủ và tự chịu trách nhiệm bằng toàn bộ tài sản của mình về mọi hoạt động của doanh nghiệp. Doanh nghiệp tư nhân không được phát hành bất kỳ loại chứng khoán nào.",
+        "reference": "Điều 188, Khoản 1 và 2"
     }
 ]
