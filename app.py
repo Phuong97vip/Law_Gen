@@ -16,12 +16,13 @@ pdf_text_2 = extract_text_from_pdf(PDF_FILE_PATH_2)
 def generate_test_answers():
     try:
         questions_and_answers = generate_questions_and_answers(pdf_text_2)
-        print("Generated Questions and Answers:", questions_and_answers)
+        print(f"Số câu hỏi được tạo ra: {len(questions_and_answers)}")
         test_data = []
 
-        for qa in questions_and_answers[:5]:  # Limit to 5 questions
+        for qa in questions_and_answers:
             query = qa['user_input']
             reference = qa.get('reference', '')
+            print(f"Processing question: {query}")
 
             if not reference:
                 print(f"Skipping question due to missing reference: {query}")
@@ -46,6 +47,10 @@ def generate_test_answers():
 
             test_data.append(test_case)
 
+        # Kiểm tra số lượng câu hỏi đã xử lý thành công
+        if len(test_data) < 5:
+            print(f"Warning: Only {len(test_data)} questions were processed successfully.")
+
         # Save to file
         with open('generate_test_answers.txt', 'w', encoding='utf-8') as f:
             f.write(json.dumps(test_data, ensure_ascii=False, indent=4))
@@ -58,6 +63,7 @@ def generate_test_answers():
 def generate_answers():
     try:
         questions_and_answers = generate_questions_and_answers(pdf_text_2)
+        print(f"Số câu hỏi sau khi lọc: {len(questions_and_answers)}")
 
         if not questions_and_answers:
             raise Exception('Failed to generate questions and answers')
@@ -114,10 +120,39 @@ def process_customer_data(input_excel_path, output_excel_path):
     except Exception as e:
         print(f"Error writing to Excel file: {e}")
 
+def log_qa_count(file_path='generate_answers.txt'):
+    """
+    Đếm và ghi log số lượng cặp câu hỏi - câu trả lời trong file đã tạo
+    """
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            qa_pairs = json.load(f)
+            
+            count = len(qa_pairs)
+            print(f"[LOG] Số lượng cặp câu hỏi và câu trả lời: {count}")
+            
+            # Ghi log vào file
+            with open('qa_log.txt', 'a', encoding='utf-8') as log_file:
+                log_file.write(f"{pd.Timestamp.now()}: Found {count} Q&A pairs in {file_path}\n")
+                
+            return count
+            
+    except FileNotFoundError:
+        print(f"[ERROR] Không tìm thấy file: {file_path}")
+        return 0
+    except json.JSONDecodeError:
+        print(f"[ERROR] Lỗi định dạng JSON trong file: {file_path}")
+        return 0
+    except Exception as e:
+        print(f"[ERROR] Lỗi không xác định: {str(e)}")
+        return 0
+
 if __name__ == '__main__':
     # Automatically run the functions on startup
     generate_test_answers()
     generate_answers()
+    qa_count = log_qa_count()
+    print(f"Tổng số cặp hỏi đáp đã tạo: {qa_count}")
     # input_excel = 'customer_list.xlsx'  # Input Excel file containing customer data
     # output_excel = 'customer_results.xlsx'  # Output Excel file for saving the results
     # process_customer_data(input_excel, output_excel)

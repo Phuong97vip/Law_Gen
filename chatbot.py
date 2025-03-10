@@ -62,11 +62,34 @@ def extract_snippet_from_pdf(reference, pdf_text):
 
     return snippet.strip(), span
 
+def are_questions_duplicate(question1, question2):
+    """
+    Kiểm tra xem hai câu hỏi có trùng lặp nội dung sử dụng OpenAI
+    """
+    try:
+        # Tạo prompt so sánh
+        prompt = (
+            "Hai câu hỏi sau có cùng ý nghĩa không? Chỉ trả lời 'có' hoặc 'không'.\n"
+            f"Câu 1: {question1}\n"
+            f"Câu 2: {question2}"
+        )
+        
+        # Gọi OpenAI
+        response = generate_response_from_openai(prompt)
+        
+        # Chuẩn hóa kết quả
+        return response.lower().strip() in ['có', 'co', 'yes']
+    
+    except Exception as e:
+        print(f"Lỗi khi kiểm tra trùng lặp: {e}")
+        return False  # Mặc định coi như không trùng nếu có lỗi
+
+
 
 # Function to generate questions and answers using OpenAI
 def generate_questions_and_answers(pdf_text):
     prompt = (
-        "Dựa trên nội dung tài liệu pháp lý dưới đây, tạo ra 5 câu hỏi và câu trả lời không được thiếu phải 5. "
+        "Dựa trên nội dung tài liệu pháp lý dưới đây, tạo ra 5 câu hỏi (không được ít hơn 5 câu hỏi) và câu trả lời không được thiếu phải 5. "
         "Mỗi câu trả lời PHẢI kèm tham chiếu CHÍNH XÁC đến Điều/Khoản trong văn bản (VD: 'Điều 1, Khoản 2'). "
         "Output chỉ là JSON hợp lệ theo định dạng:\n\n"
         "[{\"user_input\": \"...\", \"response\": \"...\", \"reference\": \"Điều X, Khoản Y\"}]\n\n"
