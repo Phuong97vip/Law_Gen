@@ -1,0 +1,112 @@
+[
+    {
+        "user_input": "Tôi muốn thành lập một công ty TNHH hai thành viên. Vốn điều lệ tối thiểu là bao nhiêu?",
+        "response": "Theo quy định tại Luật Doanh nghiệp, không có mức vốn điều lệ tối thiểu cho công ty TNHH hai thành viên trừ một số ngành nghề có điều kiện. Do đó, bạn có thể tự do quyết định mức vốn điều lệ phù hợp với nhu cầu kinh doanh của mình.",
+        "reference": "Điều 46, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi là thành viên góp vốn trong công ty TNHH, làm thế nào để chuyển nhượng phần vốn góp của mình?",
+        "response": "Theo Điều 51 của Luật Doanh nghiệp, bạn có quyền chuyển nhượng phần vốn góp của mình cho các thành viên còn lại hoặc cho người không phải là thành viên, nhưng phải tuân thủ quy trình chào bán phần vốn góp cho các thành viên còn lại trước.",
+        "reference": "Điều 51, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Doanh nghiệp của tôi muốn tạm ngừng hoạt động trong 6 tháng. Tôi cần làm gì?",
+        "response": "Theo quy định tại Luật Doanh nghiệp, bạn cần thông báo cho cơ quan đăng ký kinh doanh về việc tạm ngừng hoạt động, bao gồm lý do và thời gian tạm ngừng. Bạn cũng cần thực hiện nghĩa vụ tài chính đối với nhà nước trong thời gian này.",
+        "reference": "Điều 206, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty của tôi có thể huy động vốn bằng cách nào?",
+        "response": "Công ty của bạn có thể huy động vốn thông qua việc phát hành cổ phần, trái phiếu, hoặc vay vốn từ ngân hàng và tổ chức tín dụng. Việc huy động vốn phải tuân thủ theo quy định của Luật Doanh nghiệp và các quy định khác có liên quan.",
+        "reference": "Điều 7, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi muốn biết quyền và nghĩa vụ của người sử dụng lao động trong doanh nghiệp là gì?",
+        "response": "Người sử dụng lao động có quyền tuyển dụng, điều hành hoạt động của người lao động, và có nghĩa vụ thực hiện hợp đồng lao động, đảm bảo quyền lợi cho người lao động. Họ cũng phải tôn trọng quyền thành lập tổ chức đại diện của người lao động.",
+        "reference": "Điều 6, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu công ty tôi muốn giải thể, quy trình thực hiện sẽ như thế nào?",
+        "response": "Quy trình giải thể công ty bao gồm việc thông qua nghị quyết giải thể tại cuộc họp Hội đồng thành viên hoặc Đại hội đồng cổ đông, thanh toán các khoản nợ và nghĩa vụ tài chính, và thực hiện thủ tục đăng ký giải thể tại cơ quan đăng ký kinh doanh.",
+        "reference": "Điều 207, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty của tôi bị vi phạm quy định về an toàn lao động, tôi có thể bị xử lý ra sao?",
+        "response": "Công ty có thể bị xử phạt hành chính hoặc bị yêu cầu khắc phục hậu quả, tùy theo mức độ vi phạm. Nếu vi phạm nghiêm trọng có thể bị đình chỉ hoạt động cho đến khi khắc phục được các thiếu sót.",
+        "reference": "Điều 217, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi là cổ đông trong công ty cổ phần, tôi có quyền gì trong việc tham gia quyết định của công ty không?",
+        "response": "Cổ đông có quyền tham gia họp Đại hội đồng cổ đông, biểu quyết các vấn đề thuộc thẩm quyền, và có quyền yêu cầu triệu tập họp nếu có lý do chính đáng.",
+        "reference": "Điều 115, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có thể bị xử lý kỷ luật nếu không thực hiện nghĩa vụ lao động không?",
+        "response": "Có, công ty có thể bị xử lý kỷ luật nếu không thực hiện nghĩa vụ lao động. Các hành vi vi phạm có thể bị xử lý theo quy định của pháp luật và nội dung trong hợp đồng lao động.",
+        "reference": "Điều 217, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu tôi là người đại diện theo pháp luật của công ty, tôi có trách nhiệm gì?",
+        "response": "Người đại diện theo pháp luật có trách nhiệm thực hiện quyền và nghĩa vụ của công ty, bảo đảm lợi ích hợp pháp của công ty và không lạm dụng quyền lực của mình.",
+        "reference": "Điều 12, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi muốn biết quy định về việc tăng vốn điều lệ của công ty.",
+        "response": "Công ty có thể tăng vốn điều lệ qua việc huy động thêm vốn góp từ các thành viên hoặc tiếp nhận vốn từ thành viên mới. Việc tăng vốn phải được thông qua tại cuộc họp Hội đồng thành viên hoặc Đại hội đồng cổ đông.",
+        "reference": "Điều 68, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu tôi muốn chuyển nhượng cổ phần của mình trong công ty cổ phần, tôi cần làm gì?",
+        "response": "Bạn cần thực hiện theo quy định tại Điều 127 của Luật Doanh nghiệp. Bạn có thể tự do chuyển nhượng cổ phần của mình trừ khi Điều lệ công ty có quy định khác. Nếu có, bạn phải theo quy trình chuyển nhượng được quy định.",
+        "reference": "Điều 127, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có thể bị đình chỉ hoạt động không?",
+        "response": "Có, công ty có thể bị đình chỉ hoạt động nếu không tuân thủ các quy định pháp luật, đặc biệt là trong các trường hợp vi phạm nghiêm trọng về an toàn lao động hoặc không thực hiện nghĩa vụ tài chính.",
+        "reference": "Điều 217, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi là cổ đông sáng lập của công ty cổ phần, tôi có được chuyển nhượng cổ phần không?",
+        "response": "Cổ phần của cổ đông sáng lập có thể được chuyển nhượng tự do cho các cổ đông sáng lập khác trong vòng 3 năm kể từ ngày công ty được cấp Giấy chứng nhận đăng ký doanh nghiệp. Tuy nhiên, nếu chuyển nhượng cho người không phải là cổ đông sáng lập thì cần có sự chấp thuận của Đại hội đồng cổ đông.",
+        "reference": "Điều 120, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi muốn tổ chức lại, tôi cần thực hiện thủ tục gì?",
+        "response": "Bạn cần thông qua nghị quyết tổ chức lại tại cuộc họp Hội đồng thành viên hoặc Đại hội đồng cổ đông, sau đó thực hiện thủ tục đăng ký thay đổi nội dung đăng ký doanh nghiệp tại cơ quan nhà nước có thẩm quyền.",
+        "reference": "Điều 89, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi muốn thuê lao động là người nước ngoài, có điều gì cần lưu ý không?",
+        "response": "Công ty cần đảm bảo rằng lao động nước ngoài đáp ứng các điều kiện về giấy phép lao động và tuân thủ quy định của pháp luật Việt Nam về lao động, không được sử dụng người nước ngoài làm công việc mà lao động Việt Nam có thể thực hiện.",
+        "reference": "Điều 151, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi là giám đốc công ty, tôi có quyền gì trong việc ký kết hợp đồng?",
+        "response": "Giám đốc có quyền ký kết hợp đồng nhân danh công ty và quyết định các vấn đề liên quan đến hoạt động kinh doanh hằng ngày của công ty, trừ trường hợp thuộc thẩm quyền của Chủ tịch Hội đồng thành viên.",
+        "reference": "Điều 100, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi muốn biết thời gian thử việc tối đa trong công ty của tôi là bao lâu?",
+        "response": "Thời gian thử việc không quá 180 ngày đối với công việc của người quản lý doanh nghiệp, không quá 60 ngày đối với công việc cần trình độ cao đẳng trở lên, và không quá 30 ngày đối với công việc cần trình độ trung cấp hoặc công nhân kỹ thuật.",
+        "reference": "Điều 25, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Doanh nghiệp của tôi có thể bị phạt không nếu không thực hiện nghĩa vụ bảo hiểm xã hội?",
+        "response": "Có, doanh nghiệp có thể bị xử phạt vi phạm hành chính nếu không thực hiện nghĩa vụ bảo hiểm xã hội đối với người lao động, và cần phải hoàn thành các nghĩa vụ tài chính khác theo quy định của pháp luật.",
+        "reference": "Điều 217, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu tôi không muốn làm việc nữa, tôi có thể chấm dứt hợp đồng lao động không?",
+        "response": "Bạn có quyền đơn phương chấm dứt hợp đồng lao động, nhưng phải báo trước cho người sử dụng lao động theo quy định của pháp luật. Thời gian báo trước tùy thuộc vào loại hình hợp đồng lao động bạn đang làm.",
+        "reference": "Điều 35, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu công ty tôi bị phá sản, tôi có quyền lợi gì không?",
+        "response": "Trong trường hợp công ty bị phá sản, bạn có quyền nhận phần tài sản còn lại tương ứng với tỷ lệ sở hữu cổ phần hoặc phần vốn góp của bạn sau khi công ty đã thanh toán đủ các khoản nợ và nghĩa vụ tài chính khác.",
+        "reference": "Điều 69, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi bị yêu cầu giải thể, tôi nên làm gì?",
+        "response": "Bạn cần tiến hành thông qua nghị quyết giải thể tại cuộc họp Hội đồng thành viên hoặc Đại hội đồng cổ đông, sau đó thực hiện thủ tục đăng ký giải thể tại cơ quan nhà nước có thẩm quyền và thanh toán các khoản nợ và nghĩa vụ tài chính.",
+        "reference": "Điều 207, Luật Doanh nghiệp"
+    }
+]

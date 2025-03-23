@@ -1,0 +1,187 @@
+[
+    {
+        "user_input": "Tôi muốn thành lập một công ty TNHH hai thành viên. Có những điều kiện gì cần phải đáp ứng?",
+        "response": "Bạn cần chuẩn bị các điều kiện sau: Có tối thiểu 2 thành viên là tổ chức hoặc cá nhân; Vốn điều lệ phải được ghi trong Điều lệ công ty; Tất cả các thành viên phải góp vốn đầy đủ trong thời hạn 90 ngày kể từ khi cấp Giấy chứng nhận đăng ký doanh nghiệp. Nếu không góp đủ, thành viên đó sẽ không còn là thành viên của công ty. (Điều 46, Luật Doanh nghiệp).",
+        "reference": "Điều 46, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi là cổ đông sáng lập của một công ty cổ phần. Tôi có quyền gì?",
+        "response": "Bạn có quyền tham dự và biểu quyết trong các cuộc họp Đại hội đồng cổ đông, nhận cổ tức theo tỷ lệ sở hữu cổ phần, và tự do chuyển nhượng cổ phần của mình trừ các trường hợp quy định tại Điều lệ công ty. (Điều 115, Luật Doanh nghiệp).",
+        "reference": "Điều 115, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu tôi muốn chuyển nhượng phần vốn góp của mình trong công ty TNHH, tôi cần làm gì?",
+        "response": "Bạn cần thông báo bằng văn bản cho các thành viên khác trong công ty về việc chuyển nhượng. Việc chuyển nhượng phải được ghi vào sổ đăng ký thành viên của công ty và có thể cần sự chấp thuận của Hội đồng thành viên. (Điều 52, Luật Doanh nghiệp).",
+        "reference": "Điều 52, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi đang gặp khó khăn tài chính và có thể phải giải thể. Quy trình giải thể công ty là gì?",
+        "response": "Quy trình giải thể công ty bao gồm việc thông qua nghị quyết giải thể tại cuộc họp của Hội đồng thành viên hoặc Đại hội đồng cổ đông, thực hiện nghĩa vụ tài chính, thanh lý tài sản và nộp hồ sơ giải thể tới cơ quan đăng ký kinh doanh. (Điều 210, Luật Doanh nghiệp).",
+        "reference": "Điều 210, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có thể đình công không? Trong trường hợp nào thì tôi có quyền đình công?",
+        "response": "Bạn có quyền đình công nếu có tranh chấp lao động tập thể về lợi ích mà hòa giải không thành hoặc Ban trọng tài lao động không ra quyết định giải quyết tranh chấp. (Điều 199, Luật Doanh nghiệp).",
+        "reference": "Điều 199, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có cần phải thành lập Ban kiểm soát không?",
+        "response": "Công ty trách nhiệm hữu hạn hai thành viên trở lên phải thành lập Ban kiểm soát nếu là doanh nghiệp nhà nước, hoặc có thể thành lập theo quyết định của công ty. (Điều 54, Luật Doanh nghiệp).",
+        "reference": "Điều 54, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi muốn biết về quyền và nghĩa vụ của người đại diện theo pháp luật của công ty.",
+        "response": "Người đại diện theo pháp luật của công ty có trách nhiệm thực hiện quyền và nghĩa vụ của công ty, đồng thời phải trung thành với lợi ích của công ty và không được lạm dụng quyền hạn để tư lợi. (Điều 12, Luật Doanh nghiệp).",
+        "reference": "Điều 12, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có thể tăng vốn điều lệ bằng cách nào?",
+        "response": "Công ty có thể tăng vốn điều lệ thông qua việc các thành viên góp thêm vốn hoặc tiếp nhận thêm vốn góp của thành viên mới. (Điều 68, Luật Doanh nghiệp).",
+        "reference": "Điều 68, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu tôi không đồng ý với quyết định của Hội đồng thành viên, tôi có quyền gì?",
+        "response": "Nếu bạn không đồng ý với quyết định của Hội đồng thành viên, bạn có quyền yêu cầu công ty mua lại phần vốn góp của mình theo giá thị trường. (Điều 51, Luật Doanh nghiệp).",
+        "reference": "Điều 51, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi muốn hỏi về điều kiện để thực hiện quyền chấm dứt hợp đồng lao động.",
+        "response": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động nhưng phải báo trước cho người sử dụng lao động theo quy định, cụ thể là 45 ngày nếu hợp đồng không xác định thời hạn. (Điều 35, Luật Doanh nghiệp).",
+        "reference": "Điều 35, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có thể yêu cầu quyền lợi gì khi bị sa thải?",
+        "response": "Khi bị sa thải, bạn có quyền yêu cầu nhận trợ cấp thôi việc và các khoản tiền lương, bảo hiểm xã hội còn lại theo quy định của pháp luật. (Điều 46, Luật Doanh nghiệp).",
+        "reference": "Điều 46, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có bị xử lý kỷ luật nếu không thực hiện đúng quy định về lao động không?",
+        "response": "Có, nếu công ty không thực hiện đúng quy định về lao động thì sẽ bị xử lý kỷ luật, xử phạt hành chính hoặc bị truy cứu trách nhiệm hình sự tùy theo mức độ vi phạm. (Điều 217, Luật Doanh nghiệp).",
+        "reference": "Điều 217, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có thể yêu cầu bồi thường gì khi công ty chấm dứt hợp đồng trái pháp luật?",
+        "response": "Khi công ty chấm dứt hợp đồng trái pháp luật, bạn có quyền yêu cầu công ty nhận lại bạn vào làm việc và bồi thường tiền lương cho thời gian bạn không làm việc. (Điều 41, Luật Doanh nghiệp).",
+        "reference": "Điều 41, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có thể tự mình khởi kiện công ty không?",
+        "response": "Có, bạn có quyền tự mình hoặc nhân danh công ty khởi kiện trách nhiệm dân sự đối với người quản lý công ty nếu có hành vi vi phạm quyền và lợi ích hợp pháp của bạn. (Điều 72, Luật Doanh nghiệp).",
+        "reference": "Điều 72, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có thể phát hành cổ phần không?",
+        "response": "Công ty cổ phần có quyền phát hành cổ phần và trái phiếu theo quy định của Luật Doanh nghiệp. (Điều 111, Luật Doanh nghiệp).",
+        "reference": "Điều 111, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có thể sử dụng lao động chưa thành niên không?",
+        "response": "Công ty chỉ được sử dụng lao động chưa thành niên nếu đảm bảo tuân thủ các quy định về giờ làm việc, loại công việc phù hợp với sức khỏe và có sự đồng ý của cha mẹ hoặc người giám hộ. (Điều 143, Luật Doanh nghiệp).",
+        "reference": "Điều 143, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có thể yêu cầu chuyển nhượng cổ phần của mình không?",
+        "response": "Có, bạn có quyền tự do chuyển nhượng cổ phần của mình, trừ trường hợp Điều lệ công ty có quy định khác. (Điều 127, Luật Doanh nghiệp).",
+        "reference": "Điều 127, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu công ty tôi bị phá sản, tôi có quyền lợi gì không?",
+        "response": "Nếu công ty bị phá sản, bạn có quyền nhận tài sản còn lại tương ứng với tỷ lệ sở hữu cổ phần của bạn tại công ty sau khi công ty đã thanh toán hết các khoản nợ. (Điều 115, Luật Doanh nghiệp).",
+        "reference": "Điều 115, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi muốn biết về quyền lợi của lao động nữ trong công ty.",
+        "response": "Lao động nữ có quyền được bảo vệ trong công việc, không bị sa thải trong thời gian mang thai, nghỉ thai sản và được hưởng các quyền lợi liên quan đến sức khỏe và chế độ thai sản. (Điều 137, Luật Doanh nghiệp).",
+        "reference": "Điều 137, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi muốn hỏi về trách nhiệm của người sử dụng lao động trong việc đảm bảo an toàn lao động.",
+        "response": "Người sử dụng lao động phải đảm bảo an toàn, vệ sinh lao động cho người lao động, tổ chức khám sức khỏe định kỳ và thực hiện các biện pháp phòng ngừa rủi ro. (Điều 129, Luật Doanh nghiệp).",
+        "reference": "Điều 129, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu công ty tôi bị xử lý vi phạm, tôi có thể khiếu nại không?",
+        "response": "Có, bạn có quyền khiếu nại quyết định xử lý vi phạm của công ty với cơ quan nhà nước có thẩm quyền hoặc theo quy định của pháp luật. (Điều 131, Luật Doanh nghiệp).",
+        "reference": "Điều 131, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có quyền đơn phương chấm dứt hợp đồng lao động không?",
+        "response": "Có, người sử dụng lao động có quyền đơn phương chấm dứt hợp đồng lao động nhưng phải tuân thủ quy định về thời gian thông báo trước cho người lao động. (Điều 36, Luật Doanh nghiệp).",
+        "reference": "Điều 36, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có thể yêu cầu bồi thường nếu công ty vi phạm hợp đồng lao động không?",
+        "response": "Có, nếu công ty vi phạm hợp đồng lao động, bạn có quyền yêu cầu bồi thường thiệt hại theo quy định của pháp luật. (Điều 40, Luật Doanh nghiệp).",
+        "reference": "Điều 40, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có thể yêu cầu công ty cung cấp thông tin về tình hình tài chính không?",
+        "response": "Có, bạn có quyền yêu cầu công ty cung cấp thông tin về tình hình tài chính và hoạt động kinh doanh của công ty. (Điều 159, Luật Doanh nghiệp).",
+        "reference": "Điều 159, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có thể cho người lao động nghỉ không lương không?",
+        "response": "Có, công ty có thể cho người lao động nghỉ không lương nhưng phải có thỏa thuận giữa hai bên và phải tuân thủ quy định của pháp luật. (Điều 115, Luật Doanh nghiệp).",
+        "reference": "Điều 115, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có quyền yêu cầu công ty mua lại phần vốn góp của mình không?",
+        "response": "Có, bạn có quyền yêu cầu công ty mua lại phần vốn góp của mình nếu bạn không đồng ý với quyết định của Hội đồng thành viên về các vấn đề quan trọng. (Điều 51, Luật Doanh nghiệp).",
+        "reference": "Điều 51, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có quyền tạm đình chỉ công việc của người lao động không?",
+        "response": "Có, người sử dụng lao động có quyền tạm đình chỉ công việc của người lao động trong trường hợp có những tình tiết phức tạp liên quan đến vi phạm. (Điều 128, Luật Doanh nghiệp).",
+        "reference": "Điều 128, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có thể tổ chức lại không? Quy trình là gì?",
+        "response": "Có, công ty có thể tổ chức lại thông qua việc quyết định của Hội đồng thành viên hoặc Đại hội đồng cổ đông. Quy trình bao gồm việc thông qua nghị quyết tổ chức lại và thực hiện các thủ tục đăng ký thay đổi theo quy định. (Điều 68, Luật Doanh nghiệp).",
+        "reference": "Điều 68, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có thể huy động vốn cho công ty bằng cách nào?",
+        "response": "Bạn có thể huy động vốn cho công ty thông qua việc phát hành cổ phần, trái phiếu hoặc vay vốn từ ngân hàng, tổ chức tài chính. (Điều 7, Luật Doanh nghiệp).",
+        "reference": "Điều 7, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có thể ký kết hợp đồng với người có liên quan không?",
+        "response": "Công ty có thể ký kết hợp đồng với người có liên quan nhưng phải được sự chấp thuận của Hội đồng thành viên và phải công khai thông tin về các bên liên quan. (Điều 167, Luật Doanh nghiệp).",
+        "reference": "Điều 167, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có quyền từ chối yêu cầu cung cấp thông tin không?",
+        "response": "Công ty có quyền từ chối yêu cầu cung cấp thông tin nếu thông tin đó thuộc về bí mật thương mại hoặc bí mật công nghệ. (Điều 164, Luật Doanh nghiệp).",
+        "reference": "Điều 164, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có thể yêu cầu kiểm toán báo cáo tài chính của công ty không?",
+        "response": "Có, bạn có quyền yêu cầu kiểm toán báo cáo tài chính của công ty tại cuộc họp Đại hội đồng cổ đông. (Điều 115, Luật Doanh nghiệp).",
+        "reference": "Điều 115, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có thể tuyển dụng lao động nước ngoài không?",
+        "response": "Có, công ty có thể tuyển dụng lao động nước ngoài nhưng phải đảm bảo đáp ứng đủ các điều kiện theo quy định của pháp luật và có giấy phép lao động. (Điều 151, Luật Doanh nghiệp).",
+        "reference": "Điều 151, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có quyền thành lập doanh nghiệp ở nước ngoài không?",
+        "response": "Có, bạn có quyền thành lập doanh nghiệp ở nước ngoài nhưng phải tuân thủ quy định của pháp luật của nước sở tại và luật pháp Việt Nam. (Điều 150, Luật Doanh nghiệp).",
+        "reference": "Điều 150, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi muốn biết về nghĩa vụ của doanh nghiệp đối với người lao động.",
+        "response": "Doanh nghiệp có nghĩa vụ đảm bảo quyền lợi hợp pháp của người lao động, thực hiện đầy đủ các nghĩa vụ về bảo hiểm xã hội, bảo hiểm y tế, đảm bảo an toàn lao động và không phân biệt đối xử với người lao động. (Điều 8, Luật Doanh nghiệp).",
+        "reference": "Điều 8, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu công ty tôi không thanh toán đủ lương cho người lao động, tôi có quyền gì?",
+        "response": "Nếu công ty không thanh toán đủ lương, bạn có quyền yêu cầu công ty thanh toán đầy đủ và kịp thời số tiền lương còn thiếu. Nếu không được giải quyết, bạn có thể khởi kiện theo quy định của pháp luật. (Điều 40, Luật Doanh nghiệp).",
+        "reference": "Điều 40, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có thể yêu cầu người lao động làm thêm giờ không?",
+        "response": "Có, công ty có thể yêu cầu người lao động làm thêm giờ nhưng phải được sự đồng ý của người lao động và không vượt quá giới hạn thời gian làm thêm quy định bởi pháp luật. (Điều 107, Luật Doanh nghiệp).",
+        "reference": "Điều 107, Luật Doanh nghiệp"
+    }
+]

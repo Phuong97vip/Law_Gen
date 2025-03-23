@@ -147,12 +147,47 @@ def log_qa_count(file_path='generate_answers.txt'):
         print(f"[ERROR] Lỗi không xác định: {str(e)}")
         return 0
 
+def create_dataset_from_txt_files(file_paths, output_file='dataset.json'):
+    
+    dataset = []
+
+    for file_path in file_paths:
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                if isinstance(data, list):
+                    # Kiểm tra xem các cột cần thiết có tồn tại không
+                    for item in data:
+                        if all(key in item for key in ['user_input', 'response', 'reference']):
+                            dataset.append(item)  # Thêm mục vào dataset
+                        else:
+                            print(f"Mục trong file {file_path} thiếu cột cần thiết. Bỏ qua.")
+                else:
+                    print(f"File {file_path} không chứa dữ liệu dạng danh sách. Bỏ qua.")
+        except FileNotFoundError:
+            print(f"Không tìm thấy file: {file_path}")
+        except json.JSONDecodeError:
+            print(f"Lỗi định dạng JSON trong file: {file_path}")
+        except Exception as e:
+            print(f"Lỗi khi đọc file {file_path}: {e}")
+
+    
+    try:
+        with open(output_file, 'w', encoding='utf-8') as outfile:
+            json.dump(dataset, outfile, ensure_ascii=False, indent=4)
+        print(f"Dataset đã được lưu vào {output_file}")
+    except Exception as e:
+        print(f"Lỗi khi lưu dataset: {e}")
+
 if __name__ == '__main__':
     # Automatically run the functions on startup
-    generate_test_answers()
-    generate_answers()
-    qa_count = log_qa_count()
-    print(f"Tổng số cặp hỏi đáp đã tạo: {qa_count}")
+    # generate_test_answers()
+    # generate_answers()
+    # qa_count = log_qa_count()
+    # print(f"Tổng số cặp hỏi đáp đã tạo: {qa_count}")
     # input_excel = 'customer_list.xlsx'  # Input Excel file containing customer data
     # output_excel = 'customer_results.xlsx'  # Output Excel file for saving the results
     # process_customer_data(input_excel, output_excel)
+    file_paths = ['C2_DN_22generate_answers.txt', 'C2_Dn_31generate_answers.txt', 'C2_DN_36_generate_answers.txt','C2_DN_37generate_answers.txt','C2_DN_43generate_answers.txt']
+    create_dataset_from_txt_files(file_paths, output_file='combined_dataset.json')
+

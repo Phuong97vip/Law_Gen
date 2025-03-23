@@ -1,0 +1,157 @@
+[
+    {
+        "user_input": "Tôi muốn thành lập một công ty TNHH hai thành viên, nhưng không biết cần những thủ tục gì?",
+        "response": "Để thành lập công ty TNHH hai thành viên, bạn cần chuẩn bị hồ sơ đăng ký doanh nghiệp bao gồm: Điều lệ công ty, danh sách thành viên, giấy tờ pháp lý của các thành viên, và nộp tại Cơ quan đăng ký kinh doanh. Bạn cũng cần có vốn điều lệ và thực hiện đăng ký thuế. Tham khảo thêm tại Điều 46, Điều 47, Luật Doanh nghiệp.",
+        "reference": "Điều 46, Luật Doanh nghiệp; Điều 47, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi là cổ đông sáng lập muốn chuyển nhượng cổ phần của mình, có cần phải thông báo cho ai không?",
+        "response": "Có, bạn cần thông báo cho công ty về việc chuyển nhượng cổ phần của mình. Nếu bạn là cổ đông sáng lập, bạn chỉ được chuyển nhượng cổ phần cho cổ đông sáng lập khác hoặc với sự chấp thuận của Đại hội đồng cổ đông nếu bạn muốn chuyển nhượng cho người không phải là cổ đông sáng lập. Tham khảo thêm tại Điều 120, Luật Doanh nghiệp.",
+        "reference": "Điều 120, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi đang gặp khó khăn tài chính và có thể phải giải thể. Tôi cần biết quy trình giải thể doanh nghiệp?",
+        "response": "Quy trình giải thể doanh nghiệp bao gồm: Quyết định giải thể của Hội đồng thành viên hoặc Đại hội đồng cổ đông, thanh toán các khoản nợ, và thực hiện thủ tục đăng ký giải thể tại Cơ quan đăng ký kinh doanh. Để biết thêm chi tiết, tham khảo Điều 202, Luật Doanh nghiệp.",
+        "reference": "Điều 202, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Một trong những thành viên trong công ty TNHH hai thành viên đã không góp đủ vốn trong thời gian quy định, công ty sẽ xử lý như thế nào?",
+        "response": "Nếu thành viên không góp vốn đủ theo cam kết trong thời gian 90 ngày, họ sẽ không còn là thành viên của công ty. Phần vốn chưa góp có thể được chào bán cho các thành viên khác. Tham khảo Điều 47, Luật Doanh nghiệp.",
+        "reference": "Điều 47, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty cổ phần của tôi muốn phát hành thêm cổ phần, cần phải làm gì?",
+        "response": "Công ty cổ phần cần tổ chức họp Đại hội đồng cổ đông để quyết định về việc phát hành cổ phần, và phải thông báo công khai về việc chào bán cổ phần trong thời hạn quy định. Tham khảo Điều 113 và Điều 124, Luật Doanh nghiệp.",
+        "reference": "Điều 113, Luật Doanh nghiệp; Điều 124, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có thể đơn phương chấm dứt hợp đồng lao động khi nào?",
+        "response": "Bạn có quyền đơn phương chấm dứt hợp đồng lao động nhưng phải báo trước cho người sử dụng lao động theo quy định. Nếu bạn không được bố trí làm việc theo đúng hợp đồng hoặc bị quấy rối, bạn có thể chấm dứt mà không cần báo trước. Xem thêm tại Điều 35, Bộ luật Lao động.",
+        "reference": "Điều 35, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Công ty tôi muốn chuyển nhượng cổ phần cho một nhà đầu tư nước ngoài, cần điều kiện gì không?",
+        "response": "Nếu cổ phần chuyển nhượng thuộc ngành nghề có điều kiện, bạn cần đảm bảo rằng nhà đầu tư nước ngoài đáp ứng đủ điều kiện theo luật định. Ngoài ra, việc chuyển nhượng cần phải được thông báo và có sự đồng ý của Hội đồng quản trị. Tham khảo Điều 38, Luật Doanh nghiệp.",
+        "reference": "Điều 38, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi đã góp vốn vào công ty nhưng không nhận được lợi nhuận, tôi có thể làm gì?",
+        "response": "Bạn có quyền yêu cầu Hội đồng quản trị giải thích lý do không chia lợi nhuận. Nếu công ty không thực hiện đúng quy định về chia lợi nhuận, bạn có thể yêu cầu khởi kiện theo quy định của pháp luật. Tham khảo Điều 69, Luật Doanh nghiệp.",
+        "reference": "Điều 69, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi đã hoạt động từ lâu nhưng không có nội quy lao động, tôi nên làm gì?",
+        "response": "Bạn cần ban hành nội quy lao động, nếu công ty có từ 10 lao động trở lên, nội quy phải được lập bằng văn bản và đăng ký với cơ quan chuyên môn về lao động. Tham khảo Điều 118, Bộ luật Lao động.",
+        "reference": "Điều 118, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Công ty cổ phần của tôi có thể thay đổi tên doanh nghiệp không, và cần làm gì?",
+        "response": "Có, công ty cổ phần có thể thay đổi tên doanh nghiệp, nhưng cần thông qua quyết định của Đại hội đồng cổ đông và thực hiện thủ tục đăng ký thay đổi tại Cơ quan đăng ký kinh doanh. Tham khảo Điều 37, Luật Doanh nghiệp.",
+        "reference": "Điều 37, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi muốn biết về quyền và nghĩa vụ của người lao động trong công ty?",
+        "response": "Người lao động có quyền được làm việc, được trả lương đúng hạn, tham gia tổ chức công đoàn và yêu cầu đối thoại với người sử dụng lao động. Đồng thời, họ cũng có nghĩa vụ thực hiện hợp đồng lao động và chấp hành nội quy lao động. Tham khảo Điều 5, Bộ luật Lao động.",
+        "reference": "Điều 5, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Công ty tôi muốn tăng vốn điều lệ thì cần phải có nghị quyết của ai?",
+        "response": "Công ty cần có nghị quyết của Hội đồng thành viên hoặc Đại hội đồng cổ đông tùy thuộc vào loại hình doanh nghiệp. Nghị quyết phải được thông qua theo đúng quy trình và thủ tục quy định tại Điều lệ công ty. Tham khảo Điều 68, Luật Doanh nghiệp.",
+        "reference": "Điều 68, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có quyền thuê lại lao động từ một công ty khác không?",
+        "response": "Có, công ty bạn có quyền thuê lại lao động từ công ty khác, nhưng phải tuân thủ quy định về hợp đồng lao động và các quy định pháp luật có liên quan. Tham khảo Điều 11, Bộ luật Lao động.",
+        "reference": "Điều 11, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Tôi muốn biết quy trình xử lý kỷ luật lao động trong công ty?",
+        "response": "Quy trình xử lý kỷ luật lao động bao gồm việc chứng minh lỗi của người lao động, phải có sự tham gia của tổ chức đại diện người lao động, và người lao động có quyền tự bào chữa. Tham khảo Điều 122 và Điều 124, Bộ luật Lao động.",
+        "reference": "Điều 122, Bộ luật Lao động; Điều 124, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Công ty tôi có thể sa thải nhân viên không đúng quy định không?",
+        "response": "Không, việc sa thải nhân viên phải tuân thủ các quy định của pháp luật. Nếu sa thải không đúng quy định, công ty có thể bị xử lý kỷ luật lao động hoặc phải bồi thường theo quy định của pháp luật. Tham khảo Điều 39, Bộ luật Lao động.",
+        "reference": "Điều 39, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Công ty tôi có thể ban hành nội quy lao động không?",
+        "response": "Có, công ty có quyền ban hành nội quy lao động, nhưng cần phải tham khảo ý kiến của tổ chức đại diện người lao động tại cơ sở và công bố cho người lao động biết. Tham khảo Điều 118, Bộ luật Lao động.",
+        "reference": "Điều 118, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Tôi là cổ đông trong công ty cổ phần, có quyền gì trong việc tham gia quyết định?",
+        "response": "Cổ đông có quyền tham gia họp Đại hội đồng cổ đông, biểu quyết về các vấn đề thuộc thẩm quyền của Đại hội đồng cổ đông, và có quyền nhận cổ tức. Tham khảo Điều 115, Luật Doanh nghiệp.",
+        "reference": "Điều 115, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu doanh nghiệp bị giải thể, quyền lợi của người lao động sẽ ra sao?",
+        "response": "Khi doanh nghiệp bị giải thể, người lao động có quyền được thanh toán đầy đủ các khoản tiền lương, bảo hiểm xã hội và các quyền lợi khác trước khi thanh lý tài sản. Tham khảo Điều 202, Luật Doanh nghiệp.",
+        "reference": "Điều 202, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Doanh nghiệp có quyền yêu cầu người lao động làm thêm giờ không?",
+        "response": "Có, doanh nghiệp có quyền yêu cầu người lao động làm thêm giờ nhưng phải được sự đồng ý của người lao động và đảm bảo không vượt quá số giờ quy định. Tham khảo Điều 107, Bộ luật Lao động.",
+        "reference": "Điều 107, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Tôi có thể kiện công ty nếu họ không thực hiện đúng các quy định trong hợp đồng lao động không?",
+        "response": "Có, bạn có quyền khởi kiện công ty nếu họ không thực hiện đúng các quy định trong hợp đồng lao động, bạn có thể yêu cầu Tòa án giải quyết tranh chấp lao động. Tham khảo Điều 166, Bộ luật Lao động.",
+        "reference": "Điều 166, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Công ty có thể cho tôi nghỉ việc mà không có lý do chính đáng không?",
+        "response": "Không, công ty cần phải có lý do chính đáng và phải thông báo cho bạn biết trước khi nghỉ việc. Nếu không, bạn có thể khiếu nại hoặc kiện công ty. Tham khảo Điều 39, Bộ luật Lao động.",
+        "reference": "Điều 39, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Tôi muốn biết quyền và nghĩa vụ của người sử dụng lao động trong công ty?",
+        "response": "Người sử dụng lao động có quyền tuyển dụng, quản lý và điều hành lao động, đồng thời phải thực hiện đầy đủ nghĩa vụ về lương, bảo hiểm xã hội và bảo vệ quyền lợi hợp pháp của người lao động. Tham khảo Điều 6, Bộ luật Lao động.",
+        "reference": "Điều 6, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Tôi có thể yêu cầu công ty ban hành nội quy lao động không?",
+        "response": "Có, bạn có thể yêu cầu công ty ban hành nội quy lao động, và công ty cần tham khảo ý kiến của tổ chức đại diện người lao động tại cơ sở trước khi ban hành. Tham khảo Điều 118, Bộ luật Lao động.",
+        "reference": "Điều 118, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Công ty có nghĩa vụ gì khi sa thải người lao động?",
+        "response": "Công ty có nghĩa vụ thông báo lý do sa thải, thanh toán đầy đủ các khoản lương, trợ cấp và bảo hiểm xã hội cho người lao động. Tham khảo Điều 39, Bộ luật Lao động.",
+        "reference": "Điều 39, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Cổ đông sáng lập có thể yêu cầu mua lại cổ phần không?",
+        "response": "Có, cổ đông sáng lập có quyền yêu cầu công ty mua lại cổ phần của mình nếu họ không tán thành quyết định của Hội đồng thành viên về một số vấn đề nhất định. Tham khảo Điều 51, Luật Doanh nghiệp.",
+        "reference": "Điều 51, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty có quyền đình chỉ công việc của tôi không?",
+        "response": "Công ty có quyền tạm đình chỉ công việc của bạn trong một số trường hợp nhất định như vi phạm nội quy, nhưng cần phải thông báo rõ lý do và thời gian đình chỉ. Tham khảo Điều 128, Bộ luật Lao động.",
+        "reference": "Điều 128, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Công ty tôi có thể cắt giảm lao động trong trường hợp khó khăn không?",
+        "response": "Có, công ty có thể cắt giảm lao động nhưng phải thực hiện đúng quy trình và thông báo cho người lao động. Nếu không, công ty sẽ phải chịu trách nhiệm về việc này. Tham khảo Điều 44, Bộ luật Lao động.",
+        "reference": "Điều 44, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Tôi có quyền đơn phương chấm dứt hợp đồng lao động không?",
+        "response": "Có, bạn có quyền đơn phương chấm dứt hợp đồng lao động nhưng cần phải báo trước cho công ty theo quy định. Tham khảo Điều 35, Bộ luật Lao động.",
+        "reference": "Điều 35, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Công ty có thể sa thải tôi mà không báo trước không?",
+        "response": "Không, công ty phải báo trước cho bạn theo thời gian quy định. Nếu không, việc sa thải có thể bị coi là trái pháp luật. Tham khảo Điều 39, Bộ luật Lao động.",
+        "reference": "Điều 39, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Tôi muốn biết về quyền lợi của mình khi công ty giải thể?",
+        "response": "Khi công ty giải thể, bạn có quyền được thanh toán đầy đủ các khoản tiền lương, bảo hiểm xã hội và các quyền lợi khác trước khi tài sản công ty được thanh lý. Tham khảo Điều 202, Luật Doanh nghiệp.",
+        "reference": "Điều 202, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty tôi có thể thay đổi vốn điều lệ không?",
+        "response": "Có, công ty có quyền thay đổi vốn điều lệ, nhưng cần phải thông qua nghị quyết của Hội đồng thành viên hoặc Đại hội đồng cổ đông và thực hiện thủ tục đăng ký thay đổi vốn điều lệ. Tham khảo Điều 68, Luật Doanh nghiệp.",
+        "reference": "Điều 68, Luật Doanh nghiệp"
+    }
+]

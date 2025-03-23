@@ -1,0 +1,182 @@
+[
+    {
+        "user_input": "Làm thế nào để thành lập một công ty cổ phần tại Việt Nam?",
+        "response": "Để thành lập công ty cổ phần tại Việt Nam, bạn cần thực hiện các bước sau: 1) Chuẩn bị hồ sơ đăng ký doanh nghiệp, bao gồm điều lệ công ty, danh sách cổ đông sáng lập, giấy tờ pháp lý của các cổ đông. 2) Nộp hồ sơ tại Cơ quan đăng ký kinh doanh và nhận Giấy chứng nhận đăng ký doanh nghiệp. 3) Thực hiện công bố thông tin về đăng ký doanh nghiệp trên Cổng thông tin quốc gia trong thời hạn 30 ngày kể từ ngày cấp Giấy chứng nhận. (Điều 32, Luật Doanh nghiệp).",
+        "reference": "Điều 1, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Một thành viên không góp đủ vốn điều lệ trong thời hạn quy định thì sẽ bị xử lý như thế nào?",
+        "response": "Nếu một thành viên không góp đủ vốn điều lệ trong thời hạn quy định thì thành viên đó đương nhiên không còn là thành viên của công ty và sẽ không được chuyển nhượng quyền mua cổ phần. Công ty phải đăng ký điều chỉnh vốn điều lệ theo giá trị phần vốn đã góp trong thời hạn 30 ngày kể từ ngày cuối cùng phải góp đủ vốn. (Điều 47, Luật Doanh nghiệp).",
+        "reference": "Điều 47, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Có thể chuyển nhượng phần vốn góp trong công ty trách nhiệm hữu hạn không?",
+        "response": "Có, nhưng việc chuyển nhượng phần vốn góp trong công ty trách nhiệm hữu hạn phải tuân thủ quy định tại các điều 51, 52 và 53 của Luật Doanh nghiệp. Cụ thể, thành viên công ty phải chào bán phần vốn góp cho các thành viên còn lại trước và có thể chuyển nhượng cho người ngoài nếu các thành viên không mua hoặc không mua hết trong thời hạn quy định. (Điều 52, Luật Doanh nghiệp).",
+        "reference": "Điều 52, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi muốn thành lập một công ty trách nhiệm hữu hạn một thành viên, tôi cần chuẩn bị những gì?",
+        "response": "Bạn cần chuẩn bị: 1) Giấy tờ cá nhân của chủ sở hữu công ty. 2) Điều lệ công ty. 3) Hồ sơ đăng ký doanh nghiệp, bao gồm thông báo thành lập công ty, giấy tờ pháp lý của cá nhân. 4) Nộp hồ sơ tại Cơ quan đăng ký kinh doanh để nhận Giấy chứng nhận đăng ký doanh nghiệp. (Điều 74, Luật Doanh nghiệp).",
+        "reference": "Điều 74, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu công ty tôi muốn phát hành trái phiếu riêng lẻ, tôi cần làm gì?",
+        "response": "Khi phát hành trái phiếu riêng lẻ, công ty phải có quyết định của Đại hội đồng cổ đông về loại, tổng giá trị trái phiếu và thời điểm chào bán. Đồng thời, công ty phải công bố thông tin trước mỗi đợt chào bán cho nhà đầu tư và thông báo kết quả sau khi hoàn thành đợt chào bán. (Điều 128, Luật Doanh nghiệp).",
+        "reference": "Điều 128, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Doanh nghiệp có quyền tự do kinh doanh không?",
+        "response": "Có, doanh nghiệp có quyền tự do kinh doanh ngành, nghề mà luật không cấm. Doanh nghiệp có quyền tự chủ trong việc lựa chọn hình thức tổ chức kinh doanh, ngành nghề, địa bàn và phương thức huy động vốn. (Điều 7, Luật Doanh nghiệp).",
+        "reference": "Điều 7, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Cách nào để chuyển nhượng cổ phần trong công ty cổ phần?",
+        "response": "Cổ đông có quyền tự do chuyển nhượng cổ phần của mình cho người khác, trừ trường hợp có quy định hạn chế trong Điều lệ công ty. Việc chuyển nhượng có thể thực hiện bằng hợp đồng hoặc giao dịch trên thị trường chứng khoán. (Điều 127, Luật Doanh nghiệp).",
+        "reference": "Điều 127, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Trong trường hợp nào công ty có thể giảm vốn điều lệ?",
+        "response": "Công ty có thể giảm vốn điều lệ trong các trường hợp: a) Hoàn trả một phần vốn góp cho thành viên; b) Công ty mua lại cổ phần của thành viên; c) Vốn điều lệ không được thanh toán đủ và đúng hạn theo quy định. (Điều 68, Luật Doanh nghiệp).",
+        "reference": "Điều 68, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Doanh nghiệp nhà nước được tổ chức quản lý dưới hình thức nào?",
+        "response": "Doanh nghiệp nhà nước được tổ chức quản lý dưới hình thức công ty trách nhiệm hữu hạn hoặc công ty cổ phần, bao gồm doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ và doanh nghiệp do Nhà nước nắm giữ trên 50% vốn điều lệ. (Điều 88, Luật Doanh nghiệp).",
+        "reference": "Điều 88, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Có cần thông báo cho Cơ quan nhà nước trước khi đình công không?",
+        "response": "Có, theo quy định, tổ chức đại diện người lao động phải thông báo cho người sử dụng lao động và các cơ quan nhà nước có thẩm quyền về quyết định đình công ít nhất 05 ngày làm việc trước khi bắt đầu đình công. (Điều 199, Luật Doanh nghiệp).",
+        "reference": "Điều 199, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu công ty giải thể, tôi phải làm gì?",
+        "response": "Khi công ty giải thể, bạn cần thực hiện các bước như: 1) Thông báo quyết định giải thể đến Cơ quan đăng ký kinh doanh. 2) Tiến hành thanh toán các khoản nợ, nghĩa vụ tài chính trước khi giải thể. 3) Đăng ký thực hiện thủ tục giải thể tại Cơ quan đăng ký kinh doanh. (Điều 206, Luật Doanh nghiệp).",
+        "reference": "Điều 206, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Ai có quyền đơn phương chấm dứt hợp đồng lao động?",
+        "response": "Cả người lao động và người sử dụng lao động đều có quyền đơn phương chấm dứt hợp đồng lao động, nhưng phải thông báo trước cho bên kia theo quy định của pháp luật. Thời gian thông báo khác nhau tùy thuộc vào loại hợp đồng lao động. (Điều 35, Bộ luật Lao động).",
+        "reference": "Điều 35, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Công ty có thể nhận vốn góp từ tổ chức nước ngoài không?",
+        "response": "Có, công ty có thể nhận vốn góp từ tổ chức nước ngoài, tuy nhiên phải tuân thủ các quy định về đầu tư nước ngoài tại Việt Nam và điều kiện cụ thể liên quan đến ngành nghề đầu tư. (Điều 150, Luật Đầu tư).",
+        "reference": "Điều 150, Luật Đầu tư"
+    },
+    {
+        "user_input": "Thời gian thử việc tối đa là bao nhiêu?",
+        "response": "Thời gian thử việc tối đa là 180 ngày đối với công việc của người quản lý doanh nghiệp; 60 ngày đối với công việc có chức danh nghề nghiệp cần trình độ cao đẳng; 30 ngày đối với công việc có chức danh nghề nghiệp cần trình độ trung cấp; và 6 ngày làm việc đối với các công việc khác. (Điều 25, Bộ luật Lao động).",
+        "reference": "Điều 25, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Người lao động có quyền nào khi bị sa thải không đúng quy định?",
+        "response": "Người lao động có quyền yêu cầu phục hồi công việc và bồi thường thiệt hại do việc sa thải không đúng quy định gây ra. Người sử dụng lao động phải nhận người lao động trở lại làm việc và thanh toán tiền lương cho thời gian không làm việc. (Điều 41, Bộ luật Lao động).",
+        "reference": "Điều 41, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Doanh nghiệp có nghĩa vụ gì đối với người lao động?",
+        "response": "Doanh nghiệp có nghĩa vụ bảo đảm quyền và lợi ích hợp pháp của người lao động, thực hiện đầy đủ các nghĩa vụ về bảo hiểm xã hội, bảo hiểm y tế, và không phân biệt đối xử trong tuyển dụng và sử dụng lao động. (Điều 8, Luật Doanh nghiệp).",
+        "reference": "Điều 8, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Có thể đình công trong thời gian hòa giải tranh chấp lao động không?",
+        "response": "Không, trong thời gian hòa giải tranh chấp lao động, tổ chức đại diện người lao động không được tổ chức đình công. (Điều 192, Luật Doanh nghiệp).",
+        "reference": "Điều 192, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi cần làm gì để góp vốn vào công ty trách nhiệm hữu hạn?",
+        "response": "Để góp vốn vào công ty trách nhiệm hữu hạn, bạn cần làm theo các bước sau: 1) Tham gia ký kết hợp đồng góp vốn với công ty. 2) Chuyển giao tài sản góp vốn theo quy định. 3) Đảm bảo phần vốn đã góp được ghi vào sổ đăng ký thành viên của công ty. (Điều 47, Luật Doanh nghiệp).",
+        "reference": "Điều 47, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty có thể bị xử phạt trong trường hợp nào?",
+        "response": "Công ty có thể bị xử phạt khi vi phạm quy định của pháp luật về doanh nghiệp, như không đăng ký kinh doanh, không công bố thông tin theo quy định, hoặc không thực hiện nghĩa vụ tài chính. (Điều 217, Luật Doanh nghiệp).",
+        "reference": "Điều 217, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Quyền của cổ đông phổ thông trong công ty cổ phần là gì?",
+        "response": "Cổ đông phổ thông có quyền tham dự và biểu quyết trong cuộc họp Đại hội đồng cổ đông, nhận cổ tức, ưu tiên mua cổ phần mới tương ứng với tỷ lệ sở hữu, và nhận phần tài sản còn lại khi công ty giải thể. (Điều 115, Luật Doanh nghiệp).",
+        "reference": "Điều 115, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty có thể sa thải nhân viên trong thời gian nghỉ thai sản không?",
+        "response": "Không, công ty không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do nghỉ thai sản. (Điều 137, Bộ luật Lao động).",
+        "reference": "Điều 137, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Tôi có thể thay đổi vốn điều lệ của công ty không?",
+        "response": "Có, bạn có thể thay đổi vốn điều lệ của công ty thông qua việc thông qua quyết định của Hội đồng thành viên hoặc Đại hội đồng cổ đông, sau đó phải thông báo đến Cơ quan đăng ký kinh doanh trong thời hạn nhất định. (Điều 68, Luật Doanh nghiệp).",
+        "reference": "Điều 68, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu một doanh nghiệp muốn giải thể, họ phải làm gì?",
+        "response": "Doanh nghiệp phải thông báo quyết định giải thể đến Cơ quan đăng ký kinh doanh, thanh toán các khoản nợ, nghĩa vụ tài chính trước khi giải thể và thực hiện thủ tục đăng ký giải thể. (Điều 206, Luật Doanh nghiệp).",
+        "reference": "Điều 206, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Tôi có thể nhận cổ tức từ công ty cổ phần như thế nào?",
+        "response": "Bạn có thể nhận cổ tức từ công ty cổ phần theo quyết định của Đại hội đồng cổ đông. Cổ tức có thể được trả bằng tiền mặt hoặc bằng tài sản khác, tùy thuộc vào quy định trong Điều lệ công ty. (Điều 69, Luật Doanh nghiệp).",
+        "reference": "Điều 69, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty có quyền từ chối yêu cầu của cơ quan nhà nước không?",
+        "response": "Có, công ty có quyền từ chối yêu cầu của cơ quan, tổ chức, cá nhân về cung cấp nguồn lực không theo quy định của pháp luật. (Điều 7, Luật Doanh nghiệp).",
+        "reference": "Điều 7, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Cổ đông có quyền yêu cầu triệu tập họp Đại hội đồng cổ đông không?",
+        "response": "Có, cổ đông hoặc nhóm cổ đông sở hữu từ 5% tổng số cổ phần phổ thông trở lên có quyền yêu cầu triệu tập họp Đại hội đồng cổ đông trong một số trường hợp nhất định. (Điều 115, Luật Doanh nghiệp).",
+        "reference": "Điều 115, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Nếu doanh nghiệp không thực hiện nghĩa vụ tài chính thì có bị xử lý không?",
+        "response": "Có, doanh nghiệp nếu không thực hiện nghĩa vụ tài chính sẽ bị xử lý theo quy định của pháp luật, bao gồm cả việc bị phạt hoặc bị truy cứu trách nhiệm hình sự nếu có vi phạm nghiêm trọng. (Điều 217, Luật Doanh nghiệp).",
+        "reference": "Điều 217, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Trường hợp nào doanh nghiệp có thể bị giải thể?",
+        "response": "Doanh nghiệp có thể bị giải thể khi không còn khả năng thanh toán nợ hoặc khi có quyết định của cơ quan nhà nước có thẩm quyền về việc giải thể. (Điều 206, Luật Doanh nghiệp).",
+        "reference": "Điều 206, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty có thể phát hành cổ phần mới không?",
+        "response": "Có, công ty cổ phần có quyền phát hành cổ phần mới để tăng vốn điều lệ, nhưng phải tuân thủ các quy định về việc chào bán cổ phần theo pháp luật và Điều lệ công ty. (Điều 111, Luật Doanh nghiệp).",
+        "reference": "Điều 111, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Có thể cho thuê toàn bộ doanh nghiệp tư nhân không?",
+        "response": "Có, chủ doanh nghiệp tư nhân có quyền cho thuê toàn bộ doanh nghiệp của mình nhưng phải thông báo bằng văn bản cho Cơ quan đăng ký kinh doanh và cơ quan thuế trong thời hạn quy định. (Điều 191, Luật Doanh nghiệp).",
+        "reference": "Điều 191, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Doanh nghiệp có quyền đơn phương chấm dứt hợp đồng lao động không?",
+        "response": "Có, doanh nghiệp có quyền đơn phương chấm dứt hợp đồng lao động nhưng phải thông báo trước cho người lao động theo quy định của pháp luật. (Điều 36, Bộ luật Lao động).",
+        "reference": "Điều 36, Bộ luật Lao động"
+    },
+    {
+        "user_input": "Khi nào doanh nghiệp có thể yêu cầu giải thể?",
+        "response": "Doanh nghiệp có thể yêu cầu giải thể khi không còn khả năng thanh toán các khoản nợ và nghĩa vụ tài chính khác hoặc khi có quyết định của cơ quan có thẩm quyền về việc giải thể. (Điều 206, Luật Doanh nghiệp).",
+        "reference": "Điều 206, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty có thể yêu cầu tăng vốn điều lệ không?",
+        "response": "Có, công ty có thể yêu cầu tăng vốn điều lệ thông qua việc tăng vốn góp của các thành viên hoặc tiếp nhận thêm vốn góp từ thành viên mới. (Điều 68, Luật Doanh nghiệp).",
+        "reference": "Điều 68, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Công ty có thể bị xử phạt vì không thực hiện công bố thông tin không?",
+        "response": "Có, công ty có thể bị xử phạt nếu không thực hiện các nghĩa vụ công bố thông tin theo quy định của pháp luật về doanh nghiệp. (Điều 217, Luật Doanh nghiệp).",
+        "reference": "Điều 217, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Thời gian tối đa để tổ chức đình công là bao lâu?",
+        "response": "Thời gian tối đa cho một cuộc đình công không được vượt quá 30 ngày. Sau thời gian này, nếu không đạt được thỏa thuận, các bên phải quay lại thương lượng hoặc có thể yêu cầu hòa giải viên lao động hoặc Hội đồng trọng tài lao động giải quyết. (Điều 198, Luật Doanh nghiệp).",
+        "reference": "Điều 198, Luật Doanh nghiệp"
+    },
+    {
+        "user_input": "Cổ đông có quyền gì khi công ty làm ăn thua lỗ?",
+        "response": "Cổ đông có quyền yêu cầu công ty tổ chức họp Đại hội đồng cổ đông để xem xét, quyết định về phương án xử lý lỗ và trách nhiệm của các thành viên Hội đồng quản trị trong việc quản lý công ty. (Điều 115, Luật Doanh nghiệp).",
+        "reference": "Điều 115, Luật Doanh nghiệp"
+    }
+]
